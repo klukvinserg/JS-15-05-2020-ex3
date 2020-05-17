@@ -20,7 +20,7 @@ function getPosition(event) {
   } else if (tmp < 50) {
     ball.style.top = myHeight - 115 + "px";
   } else {
-    ball.style.top = pointTop - 50 + "px";
+    ball.style.top = pointTop - 60 + "px";
   }
 
   if (pointLeft < 100) {
@@ -28,6 +28,6 @@ function getPosition(event) {
   } else if (temp < 100) {
     ball.style.left = myWidth - 115 + "px";
   } else {
-    ball.style.left = pointLeft - 50 + "px";
+    ball.style.left = pointLeft - 60 + "px";
   }
 }
