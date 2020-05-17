@@ -11,6 +11,7 @@ body {
     height: calc(100vh - 20px);
     min-width: (100% - 20px);
     background-image: url(../img/1.jpg); 
+    background-repeat: no-repeat;
     background-position: center;
     margin: 10px;
     position: relative;
