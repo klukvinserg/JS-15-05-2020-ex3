@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: calc(100vh - 20px);
+}
+
+#main {
+    height: calc(100vh - 20px);
+    min-width: (100% - 20px);
+    background-image: url(../img/1.jpg); 
+    background-position: center;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#ball {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50px;
+    background-image: url(../img/2.png); 
+    background-size: cover;
+    background-position: center;
+    transition: ease-out 2s;
+    top: 0;
+}
